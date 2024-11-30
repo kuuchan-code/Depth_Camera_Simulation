@@ -116,21 +116,15 @@ https://github.com/user-attachments/assets/6a620f1a-3d72-453e-939d-b562cd7cb084
 
 ### Workspace Preparation
 
-1. **Create Workspace**
-```bash
-mkdir -p ~/xema_ws/src
-cd ~/xema_ws/src
-```
-
-2. **Clone Repository**
+1. **Clone Repository**
 ```bash
 git clone <repository-url-for-xema-s>
 ```
 
-3. **Copy to Home Directory**
+2. **Copy to Home Directory**
 ```bash
 # Ensure you're in the src directory
-cp -r xema_s ~/
+cp -r xema_ws ~/
 ```
 
 ### Camera Specifications - Xema-S
