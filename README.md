@@ -59,21 +59,15 @@ sudo apt install -y ros-humble-ros-gz-bridge
 
 ### Workspace Preparation
 
-1. **Create Workspace**
+1. **Clone Repository**
 ```bash
-mkdir -p ~/d435_ws/src
-cd ~/d435_ws/src
-```
-
-2. **Clone Repository**
-```bash
-git clone <repository-url-for-d435>
+git clone https://github.com/aaqibmahamood/Depth_Camera_Simulation.git
 ```
 
 3. **Copy to Home Directory**
 ```bash
-# Ensure you're in the src directory
-cp -r depth_d435 ~/
+# Ensure you're in the Home directory where you have your workspaces. Copy d435_ws into home from Depth_Camera_Simulation folder.
+cp -r d435_ws ~/
 ```
 
 ### Camera Specifications - RealSense D435
@@ -108,8 +102,11 @@ ros2 launch depth_d435 one_robot_ign_launch.py
 
 ### Visualization Examples
 
-![RealSense D435 in Gazebo](path/to/gazebo_d435_image.png)
-![RealSense D435 in RViz2](path/to/rviz_d435_image.png)
+![blender-1](assets/blender-1.png)
+
+![depth-d435](assets/depth-d435.png)
+![depth-d435-2](assets/depth-d435-2.png)
+![depth-d435-3](assets/depth-d435-3.png)
 
 #### Demonstration Video
 [RealSense D435 Simulation Video](link-to-video)
@@ -167,8 +164,13 @@ ros2 launch xema_s one_robot_ign_launch.py
 
 ### Visualization Examples
 
-![Xema-S in Gazebo](path/to/gazebo_xema_image.png)
-![Xema-S in RViz2](path/to/rviz_xema_image.png)
+![blender-2](assets/blender-2.png)
+
+![depth-xema](assets/depth-xema.png)
+
+![depth-xema-2](assets/depth-xema-2.png)
+
+![depth-xema-3](assets/depth-xema-3.png)
 
 #### Demonstration Video
 [Xema-S Simulation Video](link-to-video)
