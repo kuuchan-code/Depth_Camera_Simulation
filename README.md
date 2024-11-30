@@ -103,6 +103,7 @@ ros2 launch depth_d435 one_robot_ign_launch.py
 ### Visualization Examples
 
 ![blender-1](assets/blender-1.png)
+### Intel RealSense D435 DAE File
 
 ![depth-d435](assets/depth-d435.png)
 ![depth-d435-2](assets/depth-d435-2.png)
@@ -165,6 +166,7 @@ ros2 launch xema_s one_robot_ign_launch.py
 ### Visualization Examples
 
 ![blender-2](assets/blender-2.png)
+### Open3D's XEMA-S DAE File
 
 ![depth-xema](assets/depth-xema.png)
 
@@ -172,8 +174,6 @@ ros2 launch xema_s one_robot_ign_launch.py
 
 ![depth-xema-3](assets/depth-xema-3.png)
 
-#### Demonstration Video
-[Xema-S Simulation Video](link-to-video)
 
 ## Advanced Configuration
 
