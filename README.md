@@ -1,5 +1,8 @@
 # Depth Camera Simulation: RealSense D435 and Xema-S 
 
+![cover.png](assets/cover.png)
+![cover-2.png](assets/cover-2.png)
+
 ![ROS2 Humble](https://img.shields.io/badge/ROS-humble-blue?logo=ROS&ROS=humble)
 ![Gazebo Ignition Fortress](https://img.shields.io/badge/Gazebo-Fortress-orange)
 ![Ubuntu 22.04](https://img.shields.io/badge/Ubuntu-22.04-brightgreen)
