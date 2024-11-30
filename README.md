@@ -180,7 +180,6 @@ ros2 launch xema_s one_robot_ign_launch.py
 - **Clip Distances**:
   - D435: Near clip 0.2m, Far clip 10m
   - Xema-S: Near clip 0.1m, Far clip 15m
-- Realistic noise models
 - Accurate lens intrinsics and distortion parameters
 
 ## Bridging ROS 2 Topics
@@ -207,9 +206,6 @@ Contributions are welcome! 🤖
 4. Push to the branch
 5. Open a Pull Request
 
-## License
-
-[Specify your license]
 
 ## Acknowledgments
 
