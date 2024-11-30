@@ -1,0 +1,62 @@
+[100%] Built target tf_broadcaster
+[100%] Built target ament_cmake_python_copy_xema_s
+running egg_info
+writing xema_s.egg-info/PKG-INFO
+writing dependency_links to xema_s.egg-info/dependency_links.txt
+writing top-level names to xema_s.egg-info/top_level.txt
+reading manifest file 'xema_s.egg-info/SOURCES.txt'
+writing manifest file 'xema_s.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_xema_s_egg
+-- Install configuration: ""
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/lib/xema_s/tf_broadcaster
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/launch
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/launch/one_robot_ign_launch.py
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/urdf
+-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/urdf/sensors_diffbot.xacro
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/base_caster.stl
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/left_mecanum_wheel.dae
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/husky_wheel.stl
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/Lidar_pacecat.stl
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/caster_wheel.stl
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/wheel_ring.stl
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/right_mecanum_wheel.dae
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/base_plate.stl
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/xema_s.dae
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/rviz
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/rviz/ns_robot.rviz
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/rviz/robot_display.rviz
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/worlds
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/worlds/warehouse.sdf
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/worlds/empty.sdf
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/worlds/world_with_model.sdf
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/src
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/src/tf_broadcaster.cpp
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/scripts
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/scripts/omni_teleop_keyboard.py
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/pythonpath.sh
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/pythonpath.dsv
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info
+-- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s/__init__.py
+Listing '/home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s'...
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/lib/xema_s/omni_teleop_keyboard.py
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/ament_index/resource_index/package_run_dependencies/xema_s
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/ament_index/resource_index/parent_prefix_path/xema_s
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/ament_prefix_path.sh
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/path.sh
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/path.dsv
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/local_setup.bash
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/local_setup.sh
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/local_setup.zsh
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/local_setup.dsv
+-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/package.dsv
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/ament_index/resource_index/packages/xema_s
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/cmake/xema_sConfig.cmake
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/cmake/xema_sConfig-version.cmake
+-- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/package.xml

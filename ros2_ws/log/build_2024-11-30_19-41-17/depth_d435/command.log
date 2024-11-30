@@ -1,0 +1,6 @@
+Invoking command in '/home/aaqib/ros2_ws/build/depth_d435': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aaqib/ros2_ws/src/depth_d435 -DCMAKE_INSTALL_PREFIX=/home/aaqib/ros2_ws/install/depth_d435
+Invoked command in '/home/aaqib/ros2_ws/build/depth_d435' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aaqib/ros2_ws/src/depth_d435 -DCMAKE_INSTALL_PREFIX=/home/aaqib/ros2_ws/install/depth_d435
+Invoking command in '/home/aaqib/ros2_ws/build/depth_d435': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/ros2_ws/build/depth_d435 -- -j16 -l16
+Invoked command in '/home/aaqib/ros2_ws/build/depth_d435' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/ros2_ws/build/depth_d435 -- -j16 -l16
+Invoking command in '/home/aaqib/ros2_ws/build/depth_d435': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/ros2_ws/build/depth_d435
+Invoked command in '/home/aaqib/ros2_ws/build/depth_d435' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/ros2_ws/build/depth_d435

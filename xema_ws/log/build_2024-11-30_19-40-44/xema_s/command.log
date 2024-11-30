@@ -1,0 +1,6 @@
+Invoking command in '/home/aaqib/xema_ws/build/xema_s': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aaqib/xema_ws/src/xema_s -DCMAKE_INSTALL_PREFIX=/home/aaqib/xema_ws/install/xema_s
+Invoked command in '/home/aaqib/xema_ws/build/xema_s' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aaqib/xema_ws/src/xema_s -DCMAKE_INSTALL_PREFIX=/home/aaqib/xema_ws/install/xema_s
+Invoking command in '/home/aaqib/xema_ws/build/xema_s': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aaqib/xema_ws/build/xema_s -- -j16 -l16
+Invoked command in '/home/aaqib/xema_ws/build/xema_s' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aaqib/xema_ws/build/xema_s -- -j16 -l16
+Invoking command in '/home/aaqib/xema_ws/build/xema_s': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aaqib/xema_ws/build/xema_s
+Invoked command in '/home/aaqib/xema_ws/build/xema_s' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aaqib/xema_ws/build/xema_s

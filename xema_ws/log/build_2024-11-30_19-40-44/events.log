@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.000235] (xema_s) JobQueued: {'identifier': 'xema_s', 'dependencies': OrderedDict()}
+[0.000304] (xema_s) JobStarted: {'identifier': 'xema_s'}
+[0.013576] (xema_s) JobProgress: {'identifier': 'xema_s', 'progress': 'cmake'}
+[0.014298] (xema_s) Command: {'cmd': ['/usr/bin/cmake', '/home/aaqib/xema_ws/src/xema_s', '-DCMAKE_INSTALL_PREFIX=/home/aaqib/xema_ws/install/xema_s'], 'cwd': '/home/aaqib/xema_ws/build/xema_s', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'aaqib'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aaqib'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1961'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5820c9cb0c847f100b1fccf8674ade79'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aaqib'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aaqib'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/aaqib/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2:@/tmp/.ICE-unix/1961,unix/ros2:/tmp/.ICE-unix/1961'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e824ea9d_a411_49f7_bced_40d9fb7b3448'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.372'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/opt/ros/humble/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aaqib/xema_ws/build/xema_s'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5820c9cb0c847f100b1fccf8674ade79'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099154] (-) TimerEvent: {}
+[0.116380] (xema_s) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199289] (-) TimerEvent: {}
+[0.214239] (xema_s) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.232802] (xema_s) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299430] (-) TimerEvent: {}
+[0.364406] (xema_s) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.375422] (xema_s) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.375750] (xema_s) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.376209] (xema_s) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.380424] (xema_s) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399571] (-) TimerEvent: {}
+[0.499983] (-) TimerEvent: {}
+[0.522000] (xema_s) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.544609] (xema_s) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.545326] (xema_s) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.546405] (xema_s) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.555706] (xema_s) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600106] (-) TimerEvent: {}
+[0.700464] (-) TimerEvent: {}
+[0.791875] (xema_s) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.800576] (-) TimerEvent: {}
+[0.900938] (-) TimerEvent: {}
+[0.952306] (xema_s) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.001110] (-) TimerEvent: {}
+[1.029896] (xema_s) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.040266] (xema_s) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.055620] (xema_s) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.075850] (xema_s) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101248] (-) TimerEvent: {}
+[1.103371] (xema_s) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.177463] (xema_s) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.182568] (xema_s) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.201393] (-) TimerEvent: {}
+[1.301774] (-) TimerEvent: {}
+[1.362297] (xema_s) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.401885] (-) TimerEvent: {}
+[1.412788] (xema_s) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.491827] (xema_s) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.502003] (-) TimerEvent: {}
+[1.508744] (xema_s) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.602120] (-) TimerEvent: {}
+[1.625140] (xema_s) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.625938] (xema_s) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.702285] (-) TimerEvent: {}
+[1.741789] (xema_s) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.743313] (xema_s) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.802452] (-) TimerEvent: {}
+[1.838020] (xema_s) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.859433] (xema_s) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.886489] (xema_s) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.902652] (-) TimerEvent: {}
+[1.907509] (xema_s) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.002854] (-) TimerEvent: {}
+[2.103281] (-) TimerEvent: {}
+[2.203689] (-) TimerEvent: {}
+[2.257796] (xema_s) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.297629] (xema_s) StdoutLine: {'line': b'-- Generating done\n'}
+[2.303832] (-) TimerEvent: {}
+[2.305062] (xema_s) StdoutLine: {'line': b'-- Build files have been written to: /home/aaqib/xema_ws/build/xema_s\n'}
+[2.319978] (xema_s) CommandEnded: {'returncode': 0}
+[2.321284] (xema_s) JobProgress: {'identifier': 'xema_s', 'progress': 'build'}
+[2.323234] (xema_s) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aaqib/xema_ws/build/xema_s', '--', '-j16', '-l16'], 'cwd': '/home/aaqib/xema_ws/build/xema_s', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'aaqib'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aaqib'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1961'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5820c9cb0c847f100b1fccf8674ade79'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aaqib'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aaqib'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/aaqib/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2:@/tmp/.ICE-unix/1961,unix/ros2:/tmp/.ICE-unix/1961'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e824ea9d_a411_49f7_bced_40d9fb7b3448'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.372'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/opt/ros/humble/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aaqib/xema_ws/build/xema_s'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5820c9cb0c847f100b1fccf8674ade79'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.403936] (-) TimerEvent: {}
+[2.414524] (xema_s) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o\x1b[0m\n'}
+[2.428636] (xema_s) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_xema_s\n'}
+[2.504067] (-) TimerEvent: {}
+[2.604397] (-) TimerEvent: {}
+[2.704740] (-) TimerEvent: {}
+[2.805127] (-) TimerEvent: {}
+[2.812008] (xema_s) StdoutLine: {'line': b'running egg_info\n'}
+[2.812797] (xema_s) StdoutLine: {'line': b'creating xema_s.egg-info\n'}
+[2.813251] (xema_s) StdoutLine: {'line': b'writing xema_s.egg-info/PKG-INFO\n'}
+[2.813496] (xema_s) StdoutLine: {'line': b'writing dependency_links to xema_s.egg-info/dependency_links.txt\n'}
+[2.813761] (xema_s) StdoutLine: {'line': b'writing top-level names to xema_s.egg-info/top_level.txt\n'}
+[2.814176] (xema_s) StdoutLine: {'line': b"writing manifest file 'xema_s.egg-info/SOURCES.txt'\n"}
+[2.817030] (xema_s) StdoutLine: {'line': b"reading manifest file 'xema_s.egg-info/SOURCES.txt'\n"}
+[2.817948] (xema_s) StdoutLine: {'line': b"writing manifest file 'xema_s.egg-info/SOURCES.txt'\n"}
+[2.859153] (xema_s) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_xema_s_egg\n'}
+[2.905270] (-) TimerEvent: {}
+[3.005680] (-) TimerEvent: {}
+[3.106172] (-) TimerEvent: {}
+[3.206671] (-) TimerEvent: {}
+[3.307273] (-) TimerEvent: {}
+[3.407720] (-) TimerEvent: {}
+[3.508191] (-) TimerEvent: {}
+[3.608603] (-) TimerEvent: {}
+[3.709066] (-) TimerEvent: {}
+[3.809520] (-) TimerEvent: {}
+[3.909966] (-) TimerEvent: {}
+[4.010404] (-) TimerEvent: {}
+[4.110894] (-) TimerEvent: {}
+[4.211348] (-) TimerEvent: {}
+[4.311826] (-) TimerEvent: {}
+[4.412232] (-) TimerEvent: {}
+[4.512542] (-) TimerEvent: {}
+[4.612897] (-) TimerEvent: {}
+[4.713368] (-) TimerEvent: {}
+[4.813849] (-) TimerEvent: {}
+[4.914267] (-) TimerEvent: {}
+[5.014705] (-) TimerEvent: {}
+[5.115251] (-) TimerEvent: {}
+[5.215678] (-) TimerEvent: {}
+[5.316119] (-) TimerEvent: {}
+[5.416583] (-) TimerEvent: {}
+[5.517073] (-) TimerEvent: {}
+[5.617509] (-) TimerEvent: {}
+[5.718108] (-) TimerEvent: {}
+[5.818593] (-) TimerEvent: {}
+[5.919053] (-) TimerEvent: {}
+[6.019499] (-) TimerEvent: {}
+[6.120003] (-) TimerEvent: {}
+[6.220448] (-) TimerEvent: {}
+[6.320921] (-) TimerEvent: {}
+[6.421357] (-) TimerEvent: {}
+[6.521833] (-) TimerEvent: {}
+[6.622269] (-) TimerEvent: {}
+[6.722744] (-) TimerEvent: {}
+[6.823146] (-) TimerEvent: {}
+[6.923509] (-) TimerEvent: {}
+[7.023988] (-) TimerEvent: {}
+[7.124407] (-) TimerEvent: {}
+[7.224881] (-) TimerEvent: {}
+[7.325342] (-) TimerEvent: {}
+[7.425801] (-) TimerEvent: {}
+[7.526257] (-) TimerEvent: {}
+[7.626644] (-) TimerEvent: {}
+[7.727044] (-) TimerEvent: {}
+[7.827471] (-) TimerEvent: {}
+[7.927958] (-) TimerEvent: {}
+[8.028545] (-) TimerEvent: {}
+[8.128944] (-) TimerEvent: {}
+[8.229307] (-) TimerEvent: {}
+[8.329620] (-) TimerEvent: {}
+[8.430123] (-) TimerEvent: {}
+[8.530576] (-) TimerEvent: {}
+[8.631042] (-) TimerEvent: {}
+[8.731442] (-) TimerEvent: {}
+[8.831875] (-) TimerEvent: {}
+[8.932248] (-) TimerEvent: {}
+[9.032711] (-) TimerEvent: {}
+[9.133156] (-) TimerEvent: {}
+[9.233587] (-) TimerEvent: {}
+[9.334135] (-) TimerEvent: {}
+[9.434648] (-) TimerEvent: {}
+[9.535010] (-) TimerEvent: {}
+[9.635386] (-) TimerEvent: {}
+[9.735750] (-) TimerEvent: {}
+[9.836106] (-) TimerEvent: {}
+[9.936444] (-) TimerEvent: {}
+[10.036796] (-) TimerEvent: {}
+[10.137217] (-) TimerEvent: {}
+[10.237621] (-) TimerEvent: {}
+[10.338111] (-) TimerEvent: {}
+[10.438462] (-) TimerEvent: {}
+[10.538848] (-) TimerEvent: {}
+[10.639212] (-) TimerEvent: {}
+[10.739551] (-) TimerEvent: {}
+[10.839906] (-) TimerEvent: {}
+[10.940195] (-) TimerEvent: {}
+[11.040500] (-) TimerEvent: {}
+[11.141226] (-) TimerEvent: {}
+[11.241660] (-) TimerEvent: {}
+[11.342103] (-) TimerEvent: {}
+[11.370295] (xema_s) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tf_broadcaster\x1b[0m\n'}
+[11.442343] (-) TimerEvent: {}
+[11.542900] (-) TimerEvent: {}
+[11.643375] (-) TimerEvent: {}
+[11.743843] (-) TimerEvent: {}
+[11.844284] (-) TimerEvent: {}
+[11.927402] (xema_s) StdoutLine: {'line': b'[100%] Built target tf_broadcaster\n'}
+[11.942060] (xema_s) CommandEnded: {'returncode': 0}
+[11.942801] (xema_s) JobProgress: {'identifier': 'xema_s', 'progress': 'install'}
+[11.944376] (-) TimerEvent: {}
+[11.953126] (xema_s) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aaqib/xema_ws/build/xema_s'], 'cwd': '/home/aaqib/xema_ws/build/xema_s', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'aaqib'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aaqib'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1961'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5820c9cb0c847f100b1fccf8674ade79'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aaqib'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aaqib'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/aaqib/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2:@/tmp/.ICE-unix/1961,unix/ros2:/tmp/.ICE-unix/1961'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e824ea9d_a411_49f7_bced_40d9fb7b3448'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.372'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/opt/ros/humble/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aaqib/xema_ws/build/xema_s'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5820c9cb0c847f100b1fccf8674ade79'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.960140] (xema_s) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.960462] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/lib/xema_s/tf_broadcaster\n'}
+[11.964121] (xema_s) StdoutLine: {'line': b'-- Set runtime path of "/home/aaqib/xema_ws/install/xema_s/lib/xema_s/tf_broadcaster" to ""\n'}
+[11.964357] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/launch\n'}
+[11.964535] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/launch/one_robot_ign_launch.py\n'}
+[11.964648] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/urdf\n'}
+[11.964756] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/urdf/sensors_diffbot.xacro\n'}
+[11.964900] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes\n'}
+[11.965009] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/base_caster.stl\n'}
+[11.965167] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/left_mecanum_wheel.dae\n'}
+[11.966014] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/husky_wheel.stl\n'}
+[11.967661] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/Lidar_pacecat.stl\n'}
+[11.967916] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/caster_wheel.stl\n'}
+[11.968274] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/wheel_ring.stl\n'}
+[11.969705] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/right_mecanum_wheel.dae\n'}
+[11.970837] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/base_plate.stl\n'}
+[11.973320] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/xema_s.dae\n'}
+[11.978007] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/rviz\n'}
+[11.978276] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/rviz/ns_robot.rviz\n'}
+[11.978467] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/rviz/robot_display.rviz\n'}
+[11.978584] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/worlds\n'}
+[11.978691] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/worlds/warehouse.sdf\n'}
+[11.978793] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/worlds/empty.sdf\n'}
+[11.979014] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/worlds/world_with_model.sdf\n'}
+[11.979130] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/src\n'}
+[11.979234] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/src/tf_broadcaster.cpp\n'}
+[11.979342] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/scripts\n'}
+[11.979445] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/scripts/omni_teleop_keyboard.py\n'}
+[11.979623] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/pythonpath.sh\n'}
+[11.979745] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/pythonpath.dsv\n'}
+[11.979869] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info\n'}
+[11.979982] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.980086] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[11.980253] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.980360] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[11.980456] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s\n'}
+[11.980551] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s/__init__.py\n'}
+[12.013529] (xema_s) StdoutLine: {'line': b"Listing '/home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s'...\n"}
+[12.013771] (xema_s) StdoutLine: {'line': b"Compiling '/home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s/__init__.py'...\n"}
+[12.020377] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/lib/xema_s/omni_teleop_keyboard.py\n'}
+[12.020982] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/ament_index/resource_index/package_run_dependencies/xema_s\n'}
+[12.021456] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/ament_index/resource_index/parent_prefix_path/xema_s\n'}
+[12.021761] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/ament_prefix_path.sh\n'}
+[12.022152] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/ament_prefix_path.dsv\n'}
+[12.022484] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/path.sh\n'}
+[12.022673] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/path.dsv\n'}
+[12.022895] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/local_setup.bash\n'}
+[12.023059] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/local_setup.sh\n'}
+[12.023221] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/local_setup.zsh\n'}
+[12.023319] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/local_setup.dsv\n'}
+[12.023414] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/package.dsv\n'}
+[12.023647] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/ament_index/resource_index/packages/xema_s\n'}
+[12.023830] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/cmake/xema_sConfig.cmake\n'}
+[12.023992] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/cmake/xema_sConfig-version.cmake\n'}
+[12.024087] (xema_s) StdoutLine: {'line': b'-- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/package.xml\n'}
+[12.026616] (xema_s) CommandEnded: {'returncode': 0}
+[12.044836] (-) TimerEvent: {}
+[12.058845] (xema_s) JobEnded: {'identifier': 'xema_s', 'rc': 0}
+[12.059942] (-) EventReactorShutdown: {}

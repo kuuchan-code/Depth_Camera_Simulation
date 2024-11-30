@@ -1,0 +1,3 @@
+source;share/depth_d435/environment/ament_prefix_path.sh
+source;share/depth_d435/environment/path.sh
+source;share/depth_d435/environment/pythonpath.sh

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-190950f38d3c7d470a10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "xema_s",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_xema_s_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_xema_s_egg-b06daf028f79c591fe7c.json",
+					"name" : "ament_cmake_python_build_xema_s_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_xema_s::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_xema_s-ec33e2846ee213e3be1b.json",
+					"name" : "ament_cmake_python_copy_xema_s",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf_broadcaster-3ffad8a2482330e66263.json",
+					"name" : "tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7691d341d6d859144219.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xema_s_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xema_s_uninstall-d17465851ee2cfbdae3c.json",
+					"name" : "xema_s_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aaqib/xema_ws/build/xema_s",
+		"source" : "/home/aaqib/xema_ws/src/xema_s"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
