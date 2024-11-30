@@ -110,7 +110,7 @@ ros2 launch depth_d435 one_robot_ign_launch.py
 ![depth-d435-3](assets/depth-d435-3.png)
 
 #### Demonstration Video
-[RealSense D435 Simulation Video](link-to-video)
+https://github.com/user-attachments/assets/6a620f1a-3d72-453e-939d-b562cd7cb084
 
 ## Xema-S Depth Camera Simulation
 
