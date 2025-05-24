@@ -64,7 +64,7 @@ sudo apt install -y ros-humble-ros-gz-bridge
 git clone https://github.com/aaqibmahamood/Depth_Camera_Simulation.git
 ```
 
-3. **Copy to Home Directory**
+2. **Copy to Home Directory**
 ```bash
 # Ensure you're in the Home directory where you have your workspaces. Copy d435_ws into home from Depth_Camera_Simulation folder.
 cp -r d435_ws ~/
@@ -87,6 +87,27 @@ cp -r d435_ws ~/
 - **Update Rate**: 30 Hz
 
 ### Building and Launching
+
+### Prerequisites
+Install required ROS 2 and Gazebo packages:
+```bash
+sudo apt update
+sudo apt install \
+  ros-humble-ros-gz-sim \
+  ros-humble-ros-gz-bridge \
+  ros-humble-xacro \
+  python3-roslaunch
+```
+
+Generate the robot URDF from xacro:
+```bash
+cd ~/d435_ws
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+xacro src/depth_d435/urdf/sensors_diffbot.xacro \
+  base_color:="0.0 0.0 1.0 0.95" ns:="r1" \
+  > src/depth_d435/urdf/sensors_diffbot.urdf
+```
 
 1. **Build Workspace**
 ```bash
@@ -145,6 +166,27 @@ cp -r xema_ws ~/
 
 ### Building and Launching
 
+### Prerequisites
+Install required ROS 2 and Gazebo packages:
+```bash
+sudo apt update
+sudo apt install \
+  ros-humble-ros-gz-sim \
+  ros-humble-ros-gz-bridge \
+  ros-humble-xacro \
+  python3-roslaunch
+```
+
+Generate the robot URDF from xacro:
+```bash
+cd ~/xema_ws
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+xacro src/xema_s/urdf/sensors_diffbot.xacro \
+  base_color:="0.0 0.0 1.0 0.95" ns:="r1" \
+  > src/xema_s/urdf/sensors_diffbot.urdf
+```
+
 1. **Build Workspace**
 ```bash
 cd ~/xema_ws
@@ -198,7 +240,7 @@ ros2 run ros_gz_bridge parameter_bridge /camera/color/image@sensor_msgs/msg/Imag
 
 ## Contributing
 
-Contributions are welcome! 🤖
+Contributions are welcome! 
 
 1. Fork the repository
 2. Create your feature branch

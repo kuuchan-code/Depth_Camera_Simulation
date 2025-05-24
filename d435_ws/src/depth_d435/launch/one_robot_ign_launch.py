@@ -38,8 +38,9 @@ def generate_launch_description():
     )
 
     open_ign = IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([os.path.join(
-                get_package_share_directory('ros_gz_sim'), 'launch'), '/gz_sim.launch.py']),
+            PythonLaunchDescriptionSource(
+                os.path.join(get_package_share_directory('ros_gz_sim'), 'launch', 'gz_sim.launch.py')
+            ),
             launch_arguments=[
                 ('gz_args', [this_pkg_path+"/worlds/"+world_file, ' -v 4', ' -r'])
 
