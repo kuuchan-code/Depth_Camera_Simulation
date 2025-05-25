@@ -3,7 +3,7 @@ project(depth_d435)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
-  set(CMAKE_CXX_STANDARD 14)
+  set(CMAKE_CXX_STANDARD 17)
 endif()
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
@@ -14,7 +14,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 #find_package(ament_cmake_python REQUIRED) #for python scripts
 find_package(rclcpp REQUIRED)
-#find_package(rclpy REQUIRED) #for python scripts
+find_package(rclpy REQUIRED) #for python scripts
 find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(tf2 REQUIRED)
@@ -31,12 +31,9 @@ install(TARGETS
   tf_broadcaster
   DESTINATION lib/${PROJECT_NAME})
 
-install(DIRECTORY launch urdf meshes rviz worlds src scripts
+install(DIRECTORY launch urdf meshes rviz worlds scripts
   DESTINATION share/${PROJECT_NAME})
 
-
-# Install Python modules
-ament_python_install_package(${PROJECT_NAME})
 
 # Install Python executables #They must start with the shebag tag
 install(PROGRAMS

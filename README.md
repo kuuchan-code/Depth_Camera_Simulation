@@ -64,11 +64,11 @@ sudo apt install -y ros-humble-ros-gz-bridge
 git clone https://github.com/aaqibmahamood/Depth_Camera_Simulation.git
 ```
 
-3. **Copy to Home Directory**
-```bash
-# Ensure you're in the Home directory where you have your workspaces. Copy d435_ws into home from Depth_Camera_Simulation folder.
-cp -r d435_ws ~/
-```
+2. **Copy `d435_ws` to Home Directory**
+   ```bash
+   # Assuming you are in the root of the cloned Depth_Camera_Simulation repository:
+   cp -r d435_ws ~/
+   ```
 
 ### Camera Specifications - RealSense D435
 
@@ -116,16 +116,14 @@ https://github.com/user-attachments/assets/6a620f1a-3d72-453e-939d-b562cd7cb084
 
 ### Workspace Preparation
 
-1. **Clone Repository**
-```bash
-git clone <repository-url-for-xema-s>
-```
+1. **Ensure you have cloned the `Depth_Camera_Simulation` repository.**
+   (If not already done, refer to the "Intel RealSense D435 Simulation" > "Workspace Preparation" section for cloning the main repository, typically step 1.)
 
-2. **Copy to Home Directory**
-```bash
-# Ensure you're in the src directory
-cp -r xema_ws ~/
-```
+2. **Copy `xema_ws` to Home Directory**
+   ```bash
+   # Assuming you are in the root of the cloned Depth_Camera_Simulation repository:
+   cp -r xema_ws ~/
+   ```
 
 ### Camera Specifications - Xema-S
 
