@@ -1,4 +1,4 @@
-[0.022s] Invoking command in '/home/aaqib/xema_ws/build/xema_s': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/xema_ws/build/xema_s -- -j16 -l16
+[0.022s] Invoking command in '/home/ikeda/xema_ws/build/xema_s': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ikeda/xema_ws/build/xema_s -- -j16 -l16
 [0.143s] [100%] Built target tf_broadcaster
 [0.144s] [100%] Built target ament_cmake_python_copy_xema_s
 [0.525s] running egg_info
@@ -8,59 +8,59 @@
 [0.531s] reading manifest file 'xema_s.egg-info/SOURCES.txt'
 [0.532s] writing manifest file 'xema_s.egg-info/SOURCES.txt'
 [0.596s] [100%] Built target ament_cmake_python_build_xema_s_egg
-[0.616s] Invoked command in '/home/aaqib/xema_ws/build/xema_s' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/xema_ws/build/xema_s -- -j16 -l16
-[0.634s] Invoking command in '/home/aaqib/xema_ws/build/xema_s': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/xema_ws/build/xema_s
+[0.616s] Invoked command in '/home/ikeda/xema_ws/build/xema_s' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ikeda/xema_ws/build/xema_s -- -j16 -l16
+[0.634s] Invoking command in '/home/ikeda/xema_ws/build/xema_s': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ikeda/xema_ws/build/xema_s
 [0.653s] -- Install configuration: ""
-[0.653s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/lib/xema_s/tf_broadcaster
-[0.654s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/launch
-[0.654s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/launch/one_robot_ign_launch.py
-[0.654s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/urdf
-[0.654s] -- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/urdf/sensors_diffbot.xacro
-[0.654s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes
-[0.655s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/base_caster.stl
-[0.655s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/left_mecanum_wheel.dae
-[0.655s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/husky_wheel.stl
-[0.655s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/Lidar_pacecat.stl
-[0.655s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/caster_wheel.stl
-[0.655s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/wheel_ring.stl
-[0.655s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/right_mecanum_wheel.dae
-[0.655s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/base_plate.stl
-[0.656s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/meshes/xema_s.dae
-[0.656s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/rviz
-[0.656s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/rviz/ns_robot.rviz
-[0.656s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/rviz/robot_display.rviz
-[0.656s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/worlds
-[0.656s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/worlds/warehouse.sdf
-[0.656s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/worlds/empty.sdf
-[0.656s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/worlds/world_with_model.sdf
-[0.656s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/src
-[0.656s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/src/tf_broadcaster.cpp
-[0.656s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/scripts
-[0.656s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/scripts/omni_teleop_keyboard.py
-[0.657s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/pythonpath.sh
-[0.657s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/pythonpath.dsv
-[0.657s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info
-[0.657s] -- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/SOURCES.txt
-[0.657s] -- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/top_level.txt
-[0.657s] -- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/dependency_links.txt
-[0.657s] -- Installing: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/PKG-INFO
-[0.657s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s
-[0.657s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s/__init__.py
-[0.697s] Listing '/home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s'...
-[0.703s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/lib/xema_s/omni_teleop_keyboard.py
-[0.704s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/ament_index/resource_index/package_run_dependencies/xema_s
-[0.704s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/ament_index/resource_index/parent_prefix_path/xema_s
-[0.704s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/ament_prefix_path.sh
-[0.704s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/ament_prefix_path.dsv
-[0.704s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/path.sh
-[0.705s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/environment/path.dsv
-[0.705s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/local_setup.bash
-[0.705s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/local_setup.sh
-[0.705s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/local_setup.zsh
-[0.705s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/local_setup.dsv
-[0.705s] -- Installing: /home/aaqib/xema_ws/install/xema_s/share/xema_s/package.dsv
-[0.705s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/ament_index/resource_index/packages/xema_s
-[0.706s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/cmake/xema_sConfig.cmake
-[0.706s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/cmake/xema_sConfig-version.cmake
-[0.706s] -- Up-to-date: /home/aaqib/xema_ws/install/xema_s/share/xema_s/package.xml
-[0.710s] Invoked command in '/home/aaqib/xema_ws/build/xema_s' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/xema_ws/build/xema_s
+[0.653s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/lib/xema_s/tf_broadcaster
+[0.654s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/launch
+[0.654s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/launch/one_robot_ign_launch.py
+[0.654s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/urdf
+[0.654s] -- Installing: /home/ikeda/xema_ws/install/xema_s/share/xema_s/urdf/sensors_diffbot.xacro
+[0.654s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/meshes
+[0.655s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/meshes/base_caster.stl
+[0.655s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/meshes/left_mecanum_wheel.dae
+[0.655s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/meshes/husky_wheel.stl
+[0.655s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/meshes/Lidar_pacecat.stl
+[0.655s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/meshes/caster_wheel.stl
+[0.655s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/meshes/wheel_ring.stl
+[0.655s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/meshes/right_mecanum_wheel.dae
+[0.655s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/meshes/base_plate.stl
+[0.656s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/meshes/xema_s.dae
+[0.656s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/rviz
+[0.656s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/rviz/ns_robot.rviz
+[0.656s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/rviz/robot_display.rviz
+[0.656s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/worlds
+[0.656s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/worlds/warehouse.sdf
+[0.656s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/worlds/empty.sdf
+[0.656s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/worlds/world_with_model.sdf
+[0.656s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/src
+[0.656s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/src/tf_broadcaster.cpp
+[0.656s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/scripts
+[0.656s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/scripts/omni_teleop_keyboard.py
+[0.657s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/environment/pythonpath.sh
+[0.657s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/environment/pythonpath.dsv
+[0.657s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info
+[0.657s] -- Installing: /home/ikeda/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/SOURCES.txt
+[0.657s] -- Installing: /home/ikeda/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/top_level.txt
+[0.657s] -- Installing: /home/ikeda/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/dependency_links.txt
+[0.657s] -- Installing: /home/ikeda/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info/PKG-INFO
+[0.657s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s
+[0.657s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s/__init__.py
+[0.697s] Listing '/home/ikeda/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s'...
+[0.703s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/lib/xema_s/omni_teleop_keyboard.py
+[0.704s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/ament_index/resource_index/package_run_dependencies/xema_s
+[0.704s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/ament_index/resource_index/parent_prefix_path/xema_s
+[0.704s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/environment/ament_prefix_path.sh
+[0.704s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/environment/ament_prefix_path.dsv
+[0.704s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/environment/path.sh
+[0.705s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/environment/path.dsv
+[0.705s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/local_setup.bash
+[0.705s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/local_setup.sh
+[0.705s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/local_setup.zsh
+[0.705s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/local_setup.dsv
+[0.705s] -- Installing: /home/ikeda/xema_ws/install/xema_s/share/xema_s/package.dsv
+[0.705s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/ament_index/resource_index/packages/xema_s
+[0.706s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/cmake/xema_sConfig.cmake
+[0.706s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/cmake/xema_sConfig-version.cmake
+[0.706s] -- Up-to-date: /home/ikeda/xema_ws/install/xema_s/share/xema_s/package.xml
+[0.710s] Invoked command in '/home/ikeda/xema_ws/build/xema_s' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ikeda/xema_ws/build/xema_s

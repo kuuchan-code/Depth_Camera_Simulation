@@ -98,13 +98,13 @@
 		{
 			"backtrace" : 9,
 			"isGenerated" : true,
-			"path" : "/home/aaqib/xema_ws/build/xema_s/CMakeFiles/xema_s_uninstall",
+			"path" : "/home/ikeda/xema_ws/build/xema_s/CMakeFiles/xema_s_uninstall",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/aaqib/xema_ws/build/xema_s/CMakeFiles/xema_s_uninstall.rule",
+			"path" : "/home/ikeda/xema_ws/build/xema_s/CMakeFiles/xema_s_uninstall.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

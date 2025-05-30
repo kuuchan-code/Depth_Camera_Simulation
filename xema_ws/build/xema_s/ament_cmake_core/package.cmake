@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "xema_s")
 set(xema_s_VERSION "0.1.0")
-set(xema_s_MAINTAINER "Aaqib Mahamood <aaqibmahamood@gmail.com>")
+set(xema_s_MAINTAINER "ikeda Mahamood <ikedamahamood@gmail.com>")
 set(xema_s_BUILD_DEPENDS "" "rclcpp" "geometry_msgs" "nav_msgs" "tf2" "tf2_ros")
 set(xema_s_BUILDTOOL_DEPENDS "ament_cmake")
 set(xema_s_BUILD_EXPORT_DEPENDS )

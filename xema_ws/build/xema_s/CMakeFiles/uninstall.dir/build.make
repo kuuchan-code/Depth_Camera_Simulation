@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aaqib/xema_ws/src/xema_s
+CMAKE_SOURCE_DIR = /home/ikeda/xema_ws/src/xema_s
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aaqib/xema_ws/build/xema_s
+CMAKE_BINARY_DIR = /home/ikeda/xema_ws/build/xema_s
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/aaqib/xema_ws/build/xema_s && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aaqib/xema_ws/src/xema_s /home/aaqib/xema_ws/src/xema_s /home/aaqib/xema_ws/build/xema_s /home/aaqib/xema_ws/build/xema_s /home/aaqib/xema_ws/build/xema_s/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ikeda/xema_ws/build/xema_s && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ikeda/xema_ws/src/xema_s /home/ikeda/xema_ws/src/xema_s /home/ikeda/xema_ws/build/xema_s /home/ikeda/xema_ws/build/xema_s /home/ikeda/xema_ws/build/xema_s/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

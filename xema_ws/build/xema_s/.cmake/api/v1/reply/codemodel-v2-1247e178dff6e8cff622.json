@@ -86,8 +86,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/aaqib/xema_ws/build/xema_s",
-		"source" : "/home/aaqib/xema_ws/src/xema_s"
+		"build" : "/home/ikeda/xema_ws/build/xema_s",
+		"source" : "/home/ikeda/xema_ws/src/xema_s"
 	},
 	"version" : 
 	{

@@ -61,7 +61,7 @@ sudo apt install -y ros-humble-ros-gz-bridge
 
 1. **Clone Repository**
 ```bash
-git clone https://github.com/aaqibmahamood/Depth_Camera_Simulation.git
+git clone https://github.com/ikedamahamood/Depth_Camera_Simulation.git
 ```
 
 2. **Copy `d435_ws` to Home Directory**

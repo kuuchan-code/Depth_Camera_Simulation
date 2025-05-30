@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aaqib/xema_ws/src/xema_s
+CMAKE_SOURCE_DIR = /home/ikeda/xema_ws/src/xema_s
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aaqib/xema_ws/build/xema_s
+CMAKE_BINARY_DIR = /home/ikeda/xema_ws/build/xema_s
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aaqib/xema_ws/build/xema_s/CMakeFiles /home/aaqib/xema_ws/build/xema_s//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ikeda/xema_ws/build/xema_s/CMakeFiles /home/ikeda/xema_ws/build/xema_s//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aaqib/xema_ws/build/xema_s/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ikeda/xema_ws/build/xema_s/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

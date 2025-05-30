@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "depth_d435")
 set(depth_d435_VERSION "0.1.0")
-set(depth_d435_MAINTAINER "Aaqib Mahamood <aaqibmahamood@gmail.com>")
+set(depth_d435_MAINTAINER "ikeda Mahamood <ikedamahamood@gmail.com>")
 set(depth_d435_BUILD_DEPENDS "" "rclcpp" "geometry_msgs" "nav_msgs" "tf2" "tf2_ros")
 set(depth_d435_BUILDTOOL_DEPENDS "ament_cmake")
 set(depth_d435_BUILD_EXPORT_DEPENDS )

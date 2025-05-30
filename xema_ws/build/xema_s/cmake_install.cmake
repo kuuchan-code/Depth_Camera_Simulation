@@ -1,8 +1,8 @@
-# Install script for directory: /home/aaqib/xema_ws/src/xema_s
+# Install script for directory: /home/ikeda/xema_ws/src/xema_s
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/aaqib/xema_ws/install/xema_s")
+  set(CMAKE_INSTALL_PREFIX "/home/ikeda/xema_ws/install/xema_s")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/xema_s/tf_broadcaster"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/xema_s" TYPE EXECUTABLE FILES "/home/aaqib/xema_ws/build/xema_s/tf_broadcaster")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/xema_s" TYPE EXECUTABLE FILES "/home/ikeda/xema_ws/build/xema_s/tf_broadcaster")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/xema_s/tf_broadcaster" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/xema_s/tf_broadcaster")
     file(RPATH_CHANGE
@@ -64,50 +64,50 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s" TYPE DIRECTORY FILES
-    "/home/aaqib/xema_ws/src/xema_s/launch"
-    "/home/aaqib/xema_ws/src/xema_s/urdf"
-    "/home/aaqib/xema_ws/src/xema_s/meshes"
-    "/home/aaqib/xema_ws/src/xema_s/rviz"
-    "/home/aaqib/xema_ws/src/xema_s/worlds"
-    "/home/aaqib/xema_ws/src/xema_s/src"
-    "/home/aaqib/xema_ws/src/xema_s/scripts"
+    "/home/ikeda/xema_ws/src/xema_s/launch"
+    "/home/ikeda/xema_ws/src/xema_s/urdf"
+    "/home/ikeda/xema_ws/src/xema_s/meshes"
+    "/home/ikeda/xema_ws/src/xema_s/rviz"
+    "/home/ikeda/xema_ws/src/xema_s/worlds"
+    "/home/ikeda/xema_ws/src/xema_s/src"
+    "/home/ikeda/xema_ws/src/xema_s/scripts"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s/environment" TYPE FILE FILES "/home/aaqib/xema_ws/build/xema_s/ament_cmake_environment_hooks/pythonpath.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s/environment" TYPE FILE FILES "/home/ikeda/xema_ws/build/xema_s/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s/environment" TYPE FILE FILES "/home/aaqib/xema_ws/build/xema_s/ament_cmake_environment_hooks/pythonpath.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s/environment" TYPE FILE FILES "/home/ikeda/xema_ws/build/xema_s/ament_cmake_environment_hooks/pythonpath.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/aaqib/xema_ws/build/xema_s/ament_cmake_python/xema_s/xema_s.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/xema_s-0.1.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/ikeda/xema_ws/build/xema_s/ament_cmake_python/xema_s/xema_s.egg-info/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/xema_s" TYPE DIRECTORY FILES "/home/aaqib/xema_ws/src/xema_s/xema_s/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/xema_s" TYPE DIRECTORY FILES "/home/ikeda/xema_ws/src/xema_s/xema_s/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/aaqib/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s"
+        "/home/ikeda/xema_ws/install/xema_s/local/lib/python3.10/dist-packages/xema_s"
       )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/xema_s" TYPE PROGRAM FILES "/home/aaqib/xema_ws/src/xema_s/scripts/omni_teleop_keyboard.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/xema_s" TYPE PROGRAM FILES "/home/ikeda/xema_ws/src/xema_s/scripts/omni_teleop_keyboard.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/aaqib/xema_ws/build/xema_s/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/xema_s")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ikeda/xema_ws/build/xema_s/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/xema_s")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/aaqib/xema_ws/build/xema_s/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/xema_s")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ikeda/xema_ws/build/xema_s/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/xema_s")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -115,7 +115,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s/environment" TYPE FILE FILES "/home/aaqib/xema_ws/build/xema_s/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s/environment" TYPE FILE FILES "/home/ikeda/xema_ws/build/xema_s/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -123,42 +123,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s/environment" TYPE FILE FILES "/home/aaqib/xema_ws/build/xema_s/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s/environment" TYPE FILE FILES "/home/ikeda/xema_ws/build/xema_s/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s" TYPE FILE FILES "/home/aaqib/xema_ws/build/xema_s/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s" TYPE FILE FILES "/home/ikeda/xema_ws/build/xema_s/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s" TYPE FILE FILES "/home/aaqib/xema_ws/build/xema_s/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s" TYPE FILE FILES "/home/ikeda/xema_ws/build/xema_s/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s" TYPE FILE FILES "/home/aaqib/xema_ws/build/xema_s/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s" TYPE FILE FILES "/home/ikeda/xema_ws/build/xema_s/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s" TYPE FILE FILES "/home/aaqib/xema_ws/build/xema_s/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s" TYPE FILE FILES "/home/ikeda/xema_ws/build/xema_s/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s" TYPE FILE FILES "/home/aaqib/xema_ws/build/xema_s/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s" TYPE FILE FILES "/home/ikeda/xema_ws/build/xema_s/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/aaqib/xema_ws/build/xema_s/ament_cmake_index/share/ament_index/resource_index/packages/xema_s")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ikeda/xema_ws/build/xema_s/ament_cmake_index/share/ament_index/resource_index/packages/xema_s")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s/cmake" TYPE FILE FILES
-    "/home/aaqib/xema_ws/build/xema_s/ament_cmake_core/xema_sConfig.cmake"
-    "/home/aaqib/xema_ws/build/xema_s/ament_cmake_core/xema_sConfig-version.cmake"
+    "/home/ikeda/xema_ws/build/xema_s/ament_cmake_core/xema_sConfig.cmake"
+    "/home/ikeda/xema_ws/build/xema_s/ament_cmake_core/xema_sConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s" TYPE FILE FILES "/home/aaqib/xema_ws/src/xema_s/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xema_s" TYPE FILE FILES "/home/ikeda/xema_ws/src/xema_s/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -169,5 +169,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aaqib/xema_ws/build/xema_s/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ikeda/xema_ws/build/xema_s/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

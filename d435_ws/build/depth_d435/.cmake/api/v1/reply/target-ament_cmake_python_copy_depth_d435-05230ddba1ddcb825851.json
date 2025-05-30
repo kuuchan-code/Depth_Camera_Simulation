@@ -67,13 +67,13 @@
 		{
 			"backtrace" : 3,
 			"isGenerated" : true,
-			"path" : "/home/aaqib/ros2_ws/build/depth_d435/CMakeFiles/ament_cmake_python_copy_depth_d435",
+			"path" : "/home/ikeda/ros2_ws/build/depth_d435/CMakeFiles/ament_cmake_python_copy_depth_d435",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/aaqib/ros2_ws/build/depth_d435/CMakeFiles/ament_cmake_python_copy_depth_d435.rule",
+			"path" : "/home/ikeda/ros2_ws/build/depth_d435/CMakeFiles/ament_cmake_python_copy_depth_d435.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

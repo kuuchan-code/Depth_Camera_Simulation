@@ -73,13 +73,13 @@
 		{
 			"backtrace" : 3,
 			"isGenerated" : true,
-			"path" : "/home/aaqib/xema_ws/build/xema_s/CMakeFiles/ament_cmake_python_build_xema_s_egg",
+			"path" : "/home/ikeda/xema_ws/build/xema_s/CMakeFiles/ament_cmake_python_build_xema_s_egg",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/aaqib/xema_ws/build/xema_s/CMakeFiles/ament_cmake_python_build_xema_s_egg.rule",
+			"path" : "/home/ikeda/xema_ws/build/xema_s/CMakeFiles/ament_cmake_python_build_xema_s_egg.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

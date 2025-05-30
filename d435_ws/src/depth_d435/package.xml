@@ -4,7 +4,7 @@
   <name>depth_d435</name>
   <version>0.1.0</version>
   <description>Package to simulate an Intel RealSense D435 depth camera mounted on a differential drive robot in Gazebo Ignition Fortress with ROS 2 Humble.</description>
-  <maintainer email="aaqibmahamood@gmail.com">Aaqib Mahamood</maintainer>
+  <maintainer email="ikedamahamood@gmail.com">ikeda Mahamood</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
