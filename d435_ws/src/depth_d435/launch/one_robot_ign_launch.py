@@ -1,10 +1,12 @@
-import os, xacro
+import os
 from pathlib import Path
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, SetEnvironmentVariable
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
+# Add Command and FindExecutable imports
+from launch.substitutions import Command, FindExecutable, LaunchConfiguration
 
 robot_model = 'sensors_diffbot'
 robot_ns = 'r1' # Robot namespace (robot name)
@@ -47,34 +49,52 @@ def generate_launch_description():
         ]
     )
 
-    xacro_file = os.path.join(this_pkg_path, 'urdf', robot_model+'.xacro') #.urdf
+    # --- CHANGES START HERE ---
 
-    doc = xacro.process_file(xacro_file,
-        mappings={'base_color' : robot_base_color, 'ns' : robot_ns})
+    # Define the Xacro file path
+    xacro_file_path = os.path.join(this_pkg_path, 'urdf', robot_model + '.xacro')
 
-    robot_desc = doc.toprettyxml(indent='  ')
+    # Create a LaunchConfiguration for the base_color and ns if they are used in Xacro with $(arg)
+    # However, since they are static strings here, we can pass them directly as Command args.
+    # If 'base_color' and 'ns' were launch arguments passed to this launch file,
+    # you would use LaunchConfiguration('base_color') here.
     
+    # Process the Xacro file using Command
+    # This will execute 'xacro' as a command-line tool, resolving arguments within the Xacro file
+    robot_description_content = Command(
+        [
+            FindExecutable(name='xacro'), ' ', xacro_file_path,
+            ' base_color:=', robot_base_color,
+            ' ns:=', robot_ns # Pass namespace as an argument to xacro
+        ]
+    )
+
+    # Now pass the processed robot_description_content to robot_state_publisher
+    robot_state_publisher = Node(
+        package="robot_state_publisher",
+        executable="robot_state_publisher",
+        name="robot_state_publisher",
+        namespace=robot_ns, # This is the node namespace, not the URDF namespace
+        output="screen",
+        parameters=[{'robot_description': robot_description_content}] # Use the Command here
+    )
+
+    # For gz_spawn_entity, it also needs the resolved URDF.
+    # We can use the same Command for it.
     gz_spawn_entity = Node(
         package='ros_gz_sim',
         executable='create',
         output='screen',
-        arguments=['-string', robot_desc,
+        arguments=['-string', robot_description_content, # Use the Command here
                    '-x', pose[0], '-y', pose[1], '-z', pose[2],
                    '-R', '0.0', '-P', '0.0', '-Y', pose[3],
                    '-name', robot_ns,
                    '-allow_renaming', 'false'],
     )
 
-    robot_state_publisher = Node(
-        package="robot_state_publisher",
-        executable="robot_state_publisher",
-        name="robot_state_publisher",
-        namespace=robot_ns,
-        output="screen",
-        parameters=[{'robot_description': robot_desc}]
-    )
+    # --- CHANGES END HERE ---
 
-    # Bridge
+    # Bridge (remains the same)
     bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',

@@ -53,6 +53,7 @@ sudo apt install -y ignition-fortress
 4. **Install ROS-Gazebo Bridge**
 ```bash
 sudo apt install -y ros-humble-ros-gz-bridge
+sudo apt install -y ros-humble-ros-gz-sim
 ```
 
 ## Intel RealSense D435 Simulation
