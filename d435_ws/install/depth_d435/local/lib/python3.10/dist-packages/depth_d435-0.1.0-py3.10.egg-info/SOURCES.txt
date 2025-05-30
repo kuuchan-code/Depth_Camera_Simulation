@@ -1,6 +1,0 @@
-setup.py
-depth_d435/__init__.py
-depth_d435.egg-info/PKG-INFO
-depth_d435.egg-info/SOURCES.txt
-depth_d435.egg-info/dependency_links.txt
-depth_d435.egg-info/top_level.txt
