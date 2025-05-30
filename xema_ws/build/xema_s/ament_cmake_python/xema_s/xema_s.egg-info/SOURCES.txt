@@ -1,6 +1,0 @@
-setup.py
-xema_s/__init__.py
-xema_s.egg-info/PKG-INFO
-xema_s.egg-info/SOURCES.txt
-xema_s.egg-info/dependency_links.txt
-xema_s.egg-info/top_level.txt
